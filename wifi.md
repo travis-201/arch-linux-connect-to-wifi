@@ -31,6 +31,6 @@ station wlan0 connect "Your_WiFi_Name"
 
 Check internet connectivity:
 ```bash
-ping -c 3 google.com
+ping google.com
 ```
 If you receive responses, your internet connection is working!
