@@ -29,15 +29,6 @@ station wlan0 connect "Your_WiFi_Name"
 - If your network has a password, you will be prompted to enter it.
 - If the connection is successful, you should see a confirmation message.
 
-## Step 5: Verify Connection
-Exit `iwctl` by typing:
-```bash
-exit
-```
-Then, check if you have an IP address:
-```bash
-ip a
-```
 Check internet connectivity:
 ```bash
 ping -c 3 google.com
